@@ -320,5 +320,4 @@ class ShopifyETLPipeline:
 
 if __name__ == "__main__":
     pipeline = ShopifyETLPipeline()
-    # test_mode=False, max_pages=100 to test partial run
     pipeline.execute(force_full_load=True, test_mode=False, max_pages=100)
