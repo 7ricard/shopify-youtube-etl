@@ -61,8 +61,8 @@ A fully automated cloud-based data pipeline that ingests data from Shopify and Y
 python main.py  # or deploy via GCP
 ```
 
-**Youtube Ingestion:**
-# Run manually for token flow, then scheduled (or trigger with refresh token logic)
+## **Youtube Ingestion:**
+### Run manually for token flow, then scheduled (or trigger with refresh token logic)
 python fetch_youtube_data.py
 
 **Running Locally with Docker:**
