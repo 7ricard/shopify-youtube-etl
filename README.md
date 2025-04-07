@@ -52,6 +52,12 @@ A fully automated cloud-based data pipeline that ingests data from Shopify and Y
 - Automation-friendly data flow into dashboards or models
 
 ---
+## Flow Diagram
+![Automated Data Pipeline: Shopify & YouTube to BigQuery](PipelineDiagram.png)
+
+> *This pipeline fetches, stages, and loads data from Shopify and YouTube APIs into Google BigQuery. It supports incremental syncs, automated scheduling, and structured modeling for downstream analytics and dashboarding.*
+
+---
 
 ## How to Run
 
