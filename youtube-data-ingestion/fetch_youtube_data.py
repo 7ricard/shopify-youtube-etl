@@ -27,7 +27,7 @@ def fetch_youtube_data():
     youtube = get_authenticated_service()
 
     request = youtube.reports().query(
-        ids="channel==UCIRgNZikvXfDX1DoO6BWduw",
+        ids="[Hidden for Confidentiality]",
         startDate="2024-02-01",
         endDate="2024-02-15",
         metrics="views,likes,comments,shares,estimatedRevenue",

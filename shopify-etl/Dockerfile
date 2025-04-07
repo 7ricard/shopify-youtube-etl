@@ -1,4 +1,4 @@
-# Start from a Python 3 base image
+<file name=0 path=/Users/ricardo/Documents/DS Projects/ETL Pipeline/shopify-etl/Dockerfile># Start from a Python 3 base image
 FROM python:3.11-slim
 
 # Create a directory for your app
@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # By default, we run main.py
-CMD ["python", "main.py"]
+CMD ["python", "main.py"]</file>
